@@ -44,8 +44,45 @@
 # print(company.find('F'))
 # # 22.
 # print(company.rfind('l'))
-# 23.
+# # 23.
 word = 'You cannot end a sentence with because because because is a conjunction'
-print(word.find('b'))
-# 24.
-print(word.find('because',  ))
+# print(word.find('b'))
+# # 24.
+# print(word.rfind('b'))
+# # 25.
+# print(word.replace('because', '' ).replace('   ', ''))
+# # or 
+# print(word[:31] + word[55:])
+# 26.
+# print(company.startswith('Coding'))
+# # 27.
+# print(company.endswith('Coding'))
+# # 28.
+# strWord = '   Coding For All      '
+# print(strWord.replace('   ', ''))
+# # 29.
+# word1 = '30DaysOfPython' 
+# word2 = 'thirty_days_of_python'
+# print(word1.isidentifier())
+# print(word2.isidentifier())
+# # 30.
+# teext =  ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+# print('# '.join(teext))
+# # 31.
+# string = 'I am enjoying this challenge.\nI just wonder what is next.'
+# print(string)
+# # 32.
+# print('Name\tAge\tCountry\tCity\nAbubakr\t250\tFinland\tHelsinki')
+# radius = 10
+# area = 3.14 * radius ** 2
+# print('The area of a circle with radius {} is {} meters square'.format(radius, area))
+# # 36
+# x = 8 
+# y = 6
+# print(f'{x} + {y} = {x + y}')
+# print(f'{x} + {y} = {x-y}')
+# print(f'{x} * {y} = {x * y}')
+# print('%d / %d = %.2f'%(x,y, x/y))
+# print(f'{x} % {y} = {x % y}')
+# print(f'{x} // {y} = {x // y}')
+# print(f'{x} ** {y} = {x ** y}')
