@@ -1,3 +1,21 @@
+# # Exercise Level 1: 
+
+# age = int(input('How old are you: '))
+# if age > 18: 
+#     print('You are old enough to drive')
+# else:
+#     remain = 18 - age
+#     print(f'You need %d more years to learn how to drive'%(remain))
+
+# # Excercise Level 1
+
+# my_age = 20
+# your_age = int(input('Enter your age: '))
+# dif = abs(my_age - your_age)
+# if my_age > your_age:
+#     print(f'I\'m %d older than you are, Accord some respect next time')
+
+
 # # Excercise Level 1 question 3
 
 # a = int(input('Enter a number here: '))
@@ -39,4 +57,42 @@
 # else: 
 #     print('Enter a valid month')
 
-# 2.3 
+# # 2.3 
+ 
+# fruits = ['banana', 'orange', 'mango', 'lemon']
+# text = input('Enter a fruit to check in the list: ')
+# if fruits.__contains__(text):
+#    print('That fruit already exist in the list')
+# else:
+#    print(f'The fruit ( %s ) is not there!'%(text))
+
+
+# Excercise 3 Level 3 
+# 3.1 
+person={
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_married': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+
+}
+
+li_item = list(person['skills'])
+if person.__contains__('skills'):
+    print(li_item[int(len(li_item)/2)])
+    if li_item.__contains__('Python'):
+        print('Python')
+        print(li_item.__contains__('Python'))
+        li_item = set(li_item)
+    if li_item.
+    # if li_item.__contains__('JavaScript') and li_item.__contains__('React'):
+    #     print('He is a front end developer')
+    # if 'Node' in li_item and li_item.__contains__('Python') and li_item.__contains__('MongoDB'):
+    #     print('He is a backend developer')
+    # if li_item.__contains__()
