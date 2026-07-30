@@ -67,32 +67,32 @@
 #    print(f'The fruit ( %s ) is not there!'%(text))
 
 
-# Excercise 3 Level 3 
-# 3.1 
-person={
-    'first_name': 'Asabeneh',
-    'last_name': 'Yetayeh',
-    'age': 250,
-    'country': 'Finland',
-    'is_married': True,
-    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
-    'address': {
-        'street': 'Space street',
-        'zipcode': '02210'
-    }
+# # Excercise 3 Level 3 
+# # 3.1 
+# person={
+#     'first_name': 'Asabeneh',
+#     'last_name': 'Yetayeh',
+#     'age': 250,
+#     'country': 'Finland',
+#     'is_married': True,
+#     'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+#     'address': {
+#         'street': 'Space street',
+#         'zipcode': '02210'
+#     }
 
-}
+# }
 
-li_item = list(person['skills'])
-if person.__contains__('skills'):
-    print(li_item[int(len(li_item)/2)])
-    if li_item.__contains__('Python'):
-        print('Python')
-        print(li_item.__contains__('Python'))
-        li_item = set(li_item)
-    if li_item.
-    # if li_item.__contains__('JavaScript') and li_item.__contains__('React'):
-    #     print('He is a front end developer')
-    # if 'Node' in li_item and li_item.__contains__('Python') and li_item.__contains__('MongoDB'):
-    #     print('He is a backend developer')
-    # if li_item.__contains__()
+# li_item = (person['skills'])
+# if person.__contains__('skills'):
+#     print(li_item[int(len(li_item)//2)])
+#     if li_item.__contains__('Python'):
+#         print('Python')
+#     if li_item.__contains__('JavaScript') and li_item.__contains__('React') and len(li_item) == 2:
+#         print('He is a front end developer')
+#     if 'Node' in li_item and li_item.__contains__('Python') and li_item.__contains__('MongoDB'):
+#         print('He is a backend developer')
+#     if 'React' in li_item and 'Node' in li_item and 'MongoDB' in li_item:
+#         print('He is a fullstack developer')
+#     else:
+#         print('unknown title')
