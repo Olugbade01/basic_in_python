@@ -207,9 +207,8 @@ def array_of_seven_elements():
     
 
     result = []
-    i = 10
-    while i > 0:
-        # i -= 1
+    while True > 0:
+        
         rand_numb = random.randint(0,9)
         if result.__contains__(rand_numb):
             continue
