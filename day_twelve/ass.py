@@ -206,12 +206,23 @@ import string
 def array_of_seven_elements():
     
 
-    numb = string.digits
-        
-    numbers = random.choices(numb, k = 7)
-    
+    result = []
+    i = 10
+    while i > 0:
+        # i -= 1
+        rand_numb = random.randint(0,9)
+        if result.__contains__(rand_numb):
+            continue
+
+        else:
+            result.append(rand_numb)
+
+        if len(result) != 7:
+            continue
+        else:
+            break
         
 
-    return numbers
+    return result
 
 print(array_of_seven_elements())
