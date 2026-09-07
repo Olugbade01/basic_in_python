@@ -1,10 +1,10 @@
-# # List Comprehension Lesson
 
-# language = 'Russt and python'
+name = "Sula"
 
-# # list_of_lang = list(language)
+i = 0
 
-# #  or 
-# list_of_lang = [i for i in language]
-
-# print(list_of_lang)
+while i < 5:
+    i += 1
+    print(name)
+else:
+    print('It begings here!')
