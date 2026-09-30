@@ -88,6 +88,24 @@
 
 
 # print(list_odd)
+# from functools import *
+# import functools    
+# def mult(a, b):
+#     return a * b
+
+# list_numb = [5, 4, 3, 2, 1]
+
+# mult_all = reduce(mult, list_numb)
+
+# print(type(mult_all), mult_all)
+
+# def string_concatinator(para1, para2):
+#     return para1 + para2
 
 
+# list_strg = ['Hello', '!', ' How', ' are', ' you'.upper()]
+
+# result = reduce(string_concatinator, list_strg)
+
+# print(len(result))
 
