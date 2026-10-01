@@ -1,4 +1,4 @@
-# Exercise Level 1
+## Exercise Level 1
 
 # 1.1
 # map(), filter() and reduce() has the same format. They all take a function and iterable as arguments, but map and filter returns a list while reduce returns a value
@@ -40,7 +40,7 @@
 
 # # 1.4
 
-countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland', "England", 'Malawi', 'Mexico','Monaco']
 names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # for country in countries:
@@ -99,3 +99,41 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # length_6 = filter(country_lenght_6, countries)
 # print(list(length_6))
+
+# # 2.7
+# def E_country(country):
+#     if str(country).startswith('M' or 'm'):
+#         return True
+#     else:
+#         return False
+
+# E_countries = filter(E_country, countries)
+
+# # print(list(E_countries))
+
+# # 2.8
+# def to_upper(country):
+#     return country.upper()
+
+
+# result = filter(E_country, map(to_upper, countries))
+
+# print(list(result))
+
+# # 2.9
+# def is_string(item):
+#     if str(item).isidentifier():
+#         return True
+#     else:
+#         return False
+
+
+# def get_string_list(list_items):
+#     string_items = filter(is_string, list_items)
+#     return list(string_items)
+
+# print(get_string_list(['Hello', '1hdjkd', 'dress', '_gdhjdj', 'hdgk;hdjhd']))
+
+# 2.10
+from functools import reduce
+
