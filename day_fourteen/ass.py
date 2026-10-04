@@ -40,7 +40,7 @@
 
 # # 1.4
 
-countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland', "England", 'Malawi', 'Mexico','Monaco']
+countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
 names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # for country in countries:
@@ -134,6 +134,142 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # print(get_string_list(['Hello', '1hdjkd', 'dress', '_gdhjdj', 'hdgk;hdjhd']))
 
-# 2.10
+# # 2.10
 from functools import reduce
 
+# def sum_all_numb(m, n):
+#     return m+n
+
+# sum_numbs = reduce(sum_all_numb, numbers)
+# print(sum_numbs)
+
+# # 2.11
+
+# def conc_list(text1, text2):
+#     return text1 + ", " + text2
+
+# def func_reduce(listed_items):
+#     conc_contries = listed_items[0:len(listed_items)-1]
+
+#     concatenated = reduce(conc_list, conc_contries).__add__(' and ').__add__(listed_items[len(listed_items)-1]).__add__(' are north European countries')
+    
+
+#     return concatenated
+
+
+# print(func_reduce(countries))
+
+
+# 2.12
+
+
+# from ../../../30-Days-Of-Python import data
+import sys 
+import os
+
+countries_path = os.path.abspath('/mnt/c/Users/HP/30-Days-Of-Python/data')
+
+sys.path.append(countries_path)
+
+import countries
+countries_list = countries.countries
+
+# def land_countries(country):
+#     country = str(country)
+#     if country.__contains__('Land') or country.__contains__('land'):
+#         return True
+#     else:
+#         return False
+
+# def island_countries(country):
+#     country = str(country)
+#     if country.__contains__('island') or country.__contains__('Island'):
+#         return True
+#     else:
+#         return False
+
+# def stan_countries(country):
+#     country = str(country)
+#     if country.__contains__('stan') or country.__contains__('Stand'):
+#         return True
+
+#     else:
+#         return False
+
+# def ia_countries(country):
+#     country = str(country)
+#     if country.__contains__('ia') or country.__contains__('Ia'):
+#         return True
+
+#     else:
+#         return False
+
+    
+# def categorize_countries(countries_list):
+ 
+#     land_country = filter(land_countries, countries_list)
+    
+#     island_country = filter(island_countries, countries_list)
+
+#     ia_country = filter(ia_countries, countries_list)
+
+#     stan_country = filter(stan_countries, countries_list)
+    
+#     result = {
+#         'Land': list(land_country),
+#         'Island': list(island_country),
+#         'Ia': list(ia_country),
+#         'Stan': list(stan_country)
+
+#     }
+#     return result
+
+# print(categorize_countries(countries_list))
+
+# # 2.13
+# import string
+# def first_letter(letter):
+    
+#     letter = str(letter).upper()
+#     def countries_with_letter(country):
+
+#         if str(country).startswith(letter):
+#             return True
+
+#         else:
+#             return False
+#     return countries_with_letter
+
+    
+
+# def country_first_letter_count(countries_list):
+#     result = {
+
+#     }
+#     for alpha in string.ascii_uppercase:
+#         operator = first_letter(alpha)
+#         result[alpha] = list(filter(operator, countries_list))
+#         result[alpha] = len(result[alpha])
+
+
+#     return result
+# print(country_first_letter_count(countries_list))
+
+# # 2.14
+# def get_first_ten_countries(listed_countries):
+
+#     return listed_countries[0:10]
+
+# print(get_first_ten_countries(countries_list))
+# # 2.15    
+# def get_last_ten_countries(countries_list):
+#     return countries_list[len(countries_list)-10:]
+
+
+# print(get_last_ten_countries(countries_list))
+
+
+# Excercise Level 3
+
+
+# 3.1
