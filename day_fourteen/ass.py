@@ -164,16 +164,16 @@ from functools import reduce
 
 
 # from ../../../30-Days-Of-Python import data
-import sys 
-import os
 
-countries_path = os.path.abspath('/mnt/c/Users/HP/30-Days-Of-Python/data')
+# import sys 
+# import os
 
-sys.path.append(countries_path)
+# countries_path = os.path.abspath('/mnt/c/Users/HP/30-Days-Of-Python/data')
 
-import countries
-countries_list = countries.countries
+# sys.path.append(countries_path)
 
+# import countries
+# countries_list = countries.countries
 # def land_countries(country):
 #     country = str(country)
 #     if country.__contains__('Land') or country.__contains__('land'):
@@ -270,6 +270,40 @@ countries_list = countries.countries
 
 
 # Excercise Level 3
+import json
+
+import os 
+
+file_dir = os.path.dirname(os.path.abspath('/mnt/c/Users/HP/30-Days-Of-Python/data'))
+file_path = os.path.join(file_dir, 'data', 'countries_data.json')
+
+with open(file_path, 'r') as file:
+    file_content = json.load(file)
+
 
 
 # 3.1
+
+# # 3.1.1
+
+# print(file_content)
+
+# # 3.1.2
+# def capital_getter(file):
+#     return file['capital']
+# print(sorted(file_content, key = capital_getter))
+
+# # OR
+
+# print(sorted(file_content, key = lambda capitals: capitals['capital']))
+
+# # 3.1.3
+# print(sorted(file_content, key=lambda population: population['population']))
+
+# # OR
+
+# def population_getter(dict_list):
+#     return dict_list['population']
+
+# print(sorted(file_content, key=population_getter))
+
