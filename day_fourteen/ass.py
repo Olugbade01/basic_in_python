@@ -307,3 +307,9 @@ with open(file_path, 'r') as file:
 
 # print(sorted(file_content, key=population_getter))
 
+# 3.2
+
+
+# # 3.3
+# sorted_popul = sorted(file_content, key= population_getter)
+# print(sorted_popul[len(file_content)- 10:])
