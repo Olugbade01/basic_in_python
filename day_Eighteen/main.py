@@ -8,8 +8,8 @@ import re
 
 # print(list(span))
 
-text = '''Python is the First most beautiful language that a human being has ever created.
-I recommend python for a first programming language Firstlang'''
+# text = '''Python is the First most beautiful language that a human being has ever created.
+# I recommend python for a first programming language Firstlang'''
 
 # search = re.search('first', text, re.I)
 
@@ -46,3 +46,21 @@ I recommend python for a first programming language Firstlang'''
 
 # print(re.split('\n', txt))
 
+# REGEX_PATTERNS
+
+regex_pattern = r'apple'
+txt = 'an Apple and banana are fruits. ? An 155 old Day may haycliche 10 says an 56 apple a day a doctor way has been anyone replaced by a banana a day keeps the doctor far far away. pan'
+reg_path = r'[aA-mM]ay'
+digit = r'\d'
+non_digit = r'\D'
+# print(re.findall(regex_pattern, txt, re.I))
+# print(re.findall(reg_path, txt))
+# print(re.findall(digit, txt)) # Digit
+# print(re.findall(non_digit, txt, re.I)) #Non digit
+strt_an = r'^an'
+end_with = r'an$'
+appearances = r'[a].?'
+char_of_num = r'\d{3}'
+one_word = r'\W'
+not_abc = r'[^a-zA-Z]+'
+print(re.findall(not_abc, txt))
