@@ -27,4 +27,12 @@
 # with open('file.json', 'a') as file:
 #     json.dump(listed, file, indent=4)
 
-import csv
+# import csv # For commas seperated values 
+
+# # names = ['Name', 'School', 'Certificate']
+
+# # with open('test.csv', 'w', newline='') as csv_file:
+# #     write = csv.writer(csv_file)
+# #     write.writerow(names)
+
+
