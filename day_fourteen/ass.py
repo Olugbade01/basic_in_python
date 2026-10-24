@@ -274,19 +274,16 @@ import json
 
 import os 
 
-file_dir = os.path.dirname(os.path.abspath('/mnt/c/Users/HP/30-Days-Of-Python/data'))
+file_dir = os.path.dirname(os.path.abspath('/mnt/c/Users/USER/python_basics/30-Days-Of-Python/data'))
 file_path = os.path.join(file_dir, 'data', 'countries_data.json')
 
 with open(file_path, 'r') as file:
     file_content = json.load(file)
 
-
-
 # 3.1
+# 3.1.1
 
-# # 3.1.1
-
-# print(file_content)
+print(file_content)
 
 # # 3.1.2
 # def capital_getter(file):
