@@ -1,9 +1,9 @@
 # # Excercise Level 1
-# # 1.1
-import urllib.request
-import requests
-import re
-import os
+# # # 1.1
+# import urllib.request
+# import requests
+# import re
+# import os
 # # option 1 
 
 # site_url = 'https://www.gutenberg.org/cache/epub/5933/pg5933-images.html'
@@ -41,15 +41,15 @@ import os
 # print(report)
 
 
-# 1.2
-url_api = 'https://api.thecatapi.com/v1/breeds'
+# # 1.2
+# url_api = 'https://api.thecatapi.com/v1/breeds'
 
-api_key = os.environ.get("CAT_API_KEY")
+# api_key = os.environ.get("CAT_API_KEY")
 
-headers = {"x-api-key": api_key}
+# headers = {"x-api-key": api_key}
 
-api_response = requests.get(url_api, headers=headers)
+# api_response = requests.get(url_api, headers=headers)
 
-print(api_response.status_code)
+# print(api_response.status_code)
 
-print(api_response.text)
+# print(api_response.te)
