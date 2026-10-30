@@ -84,31 +84,124 @@ print(api_response.status_code)
 
 result = api_response.json()
 
-numbs = []
-for each_bread in result:
+# numbs = []
+# for each_bread in result:
 
-    numbs.append(each_bread['weight']['metric'].split('-'))
-list_floated_numbs = []       
-for num in numbs:
-    if len(num) == 2:
-        converted = convet_to_float(num)
-    else:
-        continue
+#     numbs.append(each_bread['weight']['metric'].split('-'))
+# list_floated_numbs = []       
+# for num in numbs:
+#     if len(num) == 2:
+#         converted = convet_to_float(num)
+#     else:
+#         continue
 
-    list_floated_numbs.append(converted)
+#     list_floated_numbs.append(converted)
    
-# print(list_floated_numbs)
-averages = []
-for floated_number in list_floated_numbs:
-    averages.append(average_calculator(floated_number))
+# # print(list_floated_numbs)
+# averages = []
+# for floated_number in list_floated_numbs:
+#     averages.append(average_calculator(floated_number))
 
 # print(averages)
 # # 2.1.1
 # print(min(averages))
 # # 2.1.2
 # print(max(averages))
-# 2.1.3
+
+
+# # 2.1.3
+
 def median_of_averages(list_averages):
     list_numbers = sorted(list_averages)
-with open('result.json', 'w') as file:
-    json.dump(result, file, indent=4)
+    mid_point = len(list_averages)//2
+    if len(list_numbers)%2 != 0:
+        median = list_numbers[mid_point]
+    else:
+        median = (list_numbers[mid_point-1]+ list_numbers[mid_point])/2
+    return median
+# print(median_of_averages(averages))
+
+# # 2.1.4
+def find_mean(listed_element):
+    sum_numbs = sum(listed_element)
+    mean = sum_numbs/len(listed_element)
+    return round(mean, 4)
+def standard_deviation(elements):
+    mean = find_mean(elements)
+    bracketed = []
+    for x in elements:
+        bracketed.append(round(x - mean, 4))
+    squared_list = []
+    for xi in bracketed:
+        squared_list.append(round(xi **2, 4))
+    sum_squrs = sum(squared_list)
+    stand_devi = (sum_squrs/(len(elements))) ** 0.5
+    return round(stand_devi,2)
+# print(standard_deviation(averages))
+
+# 2.2
+
+life_span = []
+
+for items in result:
+    life_span.append(items['life_span'].split('-'))
+float_spans = []
+for str_nums in life_span:
+    floated_span = convet_to_float(str_nums)
+    float_spans.append(floated_span)
+
+xi = []
+
+for x in float_spans:
+    xi.append(average_calculator(x))
+
+# # 2.2.1
+# print(min(xi))
+
+# # 2.2.2
+# print(max(xi))
+
+# # 2.2.3
+# print(find_mean(xi))
+# # 2.2.4
+# print(median_of_averages(xi))
+
+# # 2.2.5
+
+# print(standard_deviation(xi))
+
+# # 2.3
+# country_breed = {}
+
+# for bread in result:
+#     country_name = bread['origin'] 
+#     name = bread['name']
+#     breads = []
+#     if country_name in country_breed:
+#         country_breed[country_name] += [name]
+        
+
+#     else:
+#         country_breed[country_name] = [name]
+# table = f'Country Name \t Breeds \t Breed Names \n'
+# for key, value in country_breed.items():
+#     table += f'{key} \t {len(value)} \t {", ".join(value)} \n'
+
+# print(table)
+
+
+# 3
+
+response = requests.get(
+  'https://api.restcountries.com/countries/v5?=canada',
+  headers={'Authorization': 'Bearer rc_live_00cce7141b1f4dfb9d17c7e924f15ee6'}
+)
+data = response.json()
+
+color = "#fcfaf5"
+
+print(color)
+
+
+with open('data.json', 'w') as file:
+    json.dump(data, file, indent=4)
