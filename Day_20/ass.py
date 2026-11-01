@@ -68,21 +68,21 @@ def average_calculator(listed_nums):
 
         
 
-url_api = 'https://api.thecatapi.com/v1/breeds'
+# url_api = 'https://api.thecatapi.com/v1/breeds'
 
-# the_api_key = live_99PsER2UvaAz0YPhs6CbZ1ZxkSMaF7fUbFiNE8ArP5ijKZoFqvTV7WRR6qhiFcjj
+# # the_api_key = live_99PsER2UvaAz0YPhs6CbZ1ZxkSMaF7fUbFiNE8ArP5ijKZoFqvTV7WRR6qhiFcjj
 
-api_key = os.environ.get("CAT_API_KEY")
+# api_key = os.environ.get("CAT_API_KEY")
 
 
 
-headers = {"x-api-key": api_key}
+# headers = {"x-api-key": api_key}
 
-api_response = requests.get(url_api, headers=headers)
+# api_response = requests.get(url_api, headers=headers)
 
-print(api_response.status_code)
 
-result = api_response.json()
+
+# result = api_response.json()
 
 # numbs = []
 # for each_bread in result:
@@ -139,21 +139,21 @@ def standard_deviation(elements):
     return round(stand_devi,2)
 # print(standard_deviation(averages))
 
-# 2.2
+# # 2.2
 
-life_span = []
+# life_span = []
 
-for items in result:
-    life_span.append(items['life_span'].split('-'))
-float_spans = []
-for str_nums in life_span:
-    floated_span = convet_to_float(str_nums)
-    float_spans.append(floated_span)
+# for items in result:
+#     life_span.append(items['life_span'].split('-'))
+# float_spans = []
+# for str_nums in life_span:
+#     floated_span = convet_to_float(str_nums)
+#     float_spans.append(floated_span)
 
-xi = []
+# xi = []
 
-for x in float_spans:
-    xi.append(average_calculator(x))
+# for x in float_spans:
+#     xi.append(average_calculator(x))
 
 # # 2.2.1
 # print(min(xi))
@@ -179,9 +179,9 @@ for x in float_spans:
 #     breads = []
 #     if country_name in country_breed:
 #         country_breed[country_name] += [name]
-        
 
 #     else:
+ 
 #         country_breed[country_name] = [name]
 # table = f'Country Name \t Breeds \t Breed Names \n'
 # for key, value in country_breed.items():
@@ -193,15 +193,85 @@ for x in float_spans:
 # 3
 
 response = requests.get(
-  'https://api.restcountries.com/countries/v5?=canada',
+  'https://api.restcountries.com/countries/v5?limit=100&offset=0',
   headers={'Authorization': 'Bearer rc_live_00cce7141b1f4dfb9d17c7e924f15ee6'}
 )
 data = response.json()
 
-color = "#fcfaf5"
+for data_file in data:
+    countries = (data[data_file]['objects'])
 
-print(color)
+
+# # 3.1
+    
+# popul_country = {}
+# for country in countries:
+#     if country['names']['common'] in popul_country:
+#         print(f'{country['names']['common']} appears more than 1')
+
+#     else:
+#         popul_country[country['names']['common']]  = country['population']
+# populs = []
+# for value in popul_country.values():
+#     populs.append(value)
+
+# sorted_populs = sorted(populs)
+
+# last_10 = sorted_populs[len(sorted_populs)-10:]
+
+# table = f'{'Country Name':<15}   {'Population':>15}\n'
+# for i in range(len(last_10)-1, -1,-1):
+#     for key, value in popul_country.items():
+#         if last_10[i] == value:
+
+#             table += f'{key:<15}   {value:>15}\n'
+
+# print('''
+# =======================================================
+#       TABLE OF THE 10 MOST POPULATED COUNTRIES
+# =======================================================
+# ''')
+# print(table)
 
 
-with open('data.json', 'w') as file:
-    json.dump(data, file, indent=4)
+# # 3.2
+# language_list = []
+# for country in countries:
+
+#     language_list.append(country['languages'])
+
+# count = 0
+# list_langs = []
+# for listed in language_list:
+#     for lists in listed:
+#         count += 1
+#         list_langs.append(lists)
+# # print(count)
+# # print(len(list_langs))
+# languges_counts = {}
+# for language in list_langs:
+
+#     if language['name'] in languges_counts:
+
+#         languges_counts[language['name']] += 1
+#     else:
+#         languges_counts[language['name']] = 1
+# counts = []
+# for val in languges_counts.values():
+#     counts.append(val)
+
+# sorted_counts = sorted(counts)
+
+# most_10 = sorted_counts[len(sorted_counts)-10:]
+# content_table = f'{'COUNTRY NAME': <15} {'NO. APPEARED': >15}\n'
+# for i in range(len(most_10)-1,-1,-1):
+#     for holder, held in languges_counts.items():
+#         if most_10[i] == held:
+#             content_table += f'{holder:<15} {held:<15}\n'
+
+# print(content_table)
+
+# 3.3
+print(len(countries))
+
+

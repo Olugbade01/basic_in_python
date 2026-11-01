@@ -1,0 +1,1578 @@
+[
+    [
+        {
+            "bcp47": "ab",
+            "iso639_1": "ab",
+            "iso639_2b": "abk",
+            "iso639_2t": "abk",
+            "iso639_3": "abk",
+            "name": "Abkhaz",
+            "native_name": "\u0410\u04a7\u0441\u0443\u0430 \u0431\u044b\u0437\u0448\u04d9\u0430"
+        },
+        {
+            "bcp47": "ru",
+            "iso639_1": "ru",
+            "iso639_2b": "rus",
+            "iso639_2t": "rus",
+            "iso639_3": "rus",
+            "name": "Russian",
+            "native_name": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439"
+        }
+    ],
+    [
+        {
+            "bcp47": "prs",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "prs",
+            "name": "Dari",
+            "native_name": "\u062f\u0631\u06cc"
+        },
+        {
+            "bcp47": "ps",
+            "iso639_1": "ps",
+            "iso639_2b": "pus",
+            "iso639_2t": "pus",
+            "iso639_3": "pus",
+            "name": "Pashto",
+            "native_name": "\u067e\u069a\u062a\u0648"
+        },
+        {
+            "bcp47": "tk",
+            "iso639_1": "tk",
+            "iso639_2b": "tuk",
+            "iso639_2t": "tuk",
+            "iso639_3": "tuk",
+            "name": "Turkmen",
+            "native_name": "T\u00fcrkmen\u00e7e"
+        }
+    ],
+    [
+        {
+            "bcp47": "sq",
+            "iso639_1": "sq",
+            "iso639_2b": "alb",
+            "iso639_2t": "sqi",
+            "iso639_3": "sqi",
+            "name": "Albanian",
+            "native_name": "shqip"
+        }
+    ],
+    [
+        {
+            "bcp47": "ar",
+            "iso639_1": "ar",
+            "iso639_2b": "ara",
+            "iso639_2t": "ara",
+            "iso639_3": "ara",
+            "name": "Arabic",
+            "native_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "sm",
+            "iso639_1": "sm",
+            "iso639_2b": "smo",
+            "iso639_2t": "smo",
+            "iso639_3": "smo",
+            "name": "Samoan",
+            "native_name": "gagana fa\u02bba Samoa"
+        }
+    ],
+    [
+        {
+            "bcp47": "ca",
+            "iso639_1": "ca",
+            "iso639_2b": "cat",
+            "iso639_2t": "cat",
+            "iso639_3": "cat",
+            "name": "Catalan",
+            "native_name": "catal\u00e0"
+        }
+    ],
+    [
+        {
+            "bcp47": "pt",
+            "iso639_1": "pt",
+            "iso639_2b": "por",
+            "iso639_2t": "por",
+            "iso639_3": "por",
+            "name": "Portuguese",
+            "native_name": "portugu\u00eas"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "gn",
+            "iso639_1": "gn",
+            "iso639_2b": "grn",
+            "iso639_2t": "grn",
+            "iso639_3": "grn",
+            "name": "Guarani",
+            "native_name": "Ava\u00f1e'\u1ebd"
+        },
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "hy",
+            "iso639_1": "hy",
+            "iso639_2b": "arm",
+            "iso639_2t": "hye",
+            "iso639_3": "hye",
+            "name": "Armenian",
+            "native_name": "\u0540\u0561\u0575\u0565\u0580\u0565\u0576"
+        }
+    ],
+    [
+        {
+            "bcp47": "nl",
+            "iso639_1": "nl",
+            "iso639_2b": "dut",
+            "iso639_2t": "nld",
+            "iso639_3": "nld",
+            "name": "Dutch",
+            "native_name": "Nederlands"
+        },
+        {
+            "bcp47": "pap",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "pap",
+            "name": "Papiamento",
+            "native_name": "Papiamentu"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "de",
+            "iso639_1": "de",
+            "iso639_2b": "ger",
+            "iso639_2t": "deu",
+            "iso639_3": "deu",
+            "name": "German",
+            "native_name": "Deutsch"
+        }
+    ],
+    [
+        {
+            "bcp47": "az",
+            "iso639_1": "az",
+            "iso639_2b": "aze",
+            "iso639_2t": "aze",
+            "iso639_3": "aze",
+            "name": "Azerbaijani",
+            "native_name": "Az\u0259rbaycan dili"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "ar",
+            "iso639_1": "ar",
+            "iso639_2b": "ara",
+            "iso639_2t": "ara",
+            "iso639_3": "ara",
+            "name": "Arabic",
+            "native_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        }
+    ],
+    [
+        {
+            "bcp47": "bn",
+            "iso639_1": "bn",
+            "iso639_2b": "ben",
+            "iso639_2t": "ben",
+            "iso639_3": "ben",
+            "name": "Bengali",
+            "native_name": "\u09ac\u09be\u0982\u09b2\u09be"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "be",
+            "iso639_1": "be",
+            "iso639_2b": "bel",
+            "iso639_2t": "bel",
+            "iso639_3": "bel",
+            "name": "Belarusian",
+            "native_name": "\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f \u043c\u043e\u0432\u0430"
+        },
+        {
+            "bcp47": "ru",
+            "iso639_1": "ru",
+            "iso639_2b": "rus",
+            "iso639_2t": "rus",
+            "iso639_3": "rus",
+            "name": "Russian",
+            "native_name": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439"
+        }
+    ],
+    [
+        {
+            "bcp47": "de",
+            "iso639_1": "de",
+            "iso639_2b": "ger",
+            "iso639_2t": "deu",
+            "iso639_3": "deu",
+            "name": "German",
+            "native_name": "Deutsch"
+        },
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        },
+        {
+            "bcp47": "nl",
+            "iso639_1": "nl",
+            "iso639_2b": "dut",
+            "iso639_2t": "nld",
+            "iso639_3": "nld",
+            "name": "Dutch",
+            "native_name": "Nederlands"
+        }
+    ],
+    [
+        {
+            "bcp47": "bjz",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "bjz",
+            "name": "Belize Kriol",
+            "native_name": "Belize Kriol"
+        },
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "dz",
+            "iso639_1": "dz",
+            "iso639_2b": "dzo",
+            "iso639_2t": "dzo",
+            "iso639_3": "dzo",
+            "name": "Dzongkha",
+            "native_name": "\u0f62\u0fab\u0f7c\u0f44\u0f0b\u0f41"
+        }
+    ],
+    [
+        {
+            "bcp47": "ay",
+            "iso639_1": "ay",
+            "iso639_2b": "aym",
+            "iso639_2t": "aym",
+            "iso639_3": "aym",
+            "name": "Aymara",
+            "native_name": "Aymar aru"
+        },
+        {
+            "bcp47": "gn",
+            "iso639_1": "gn",
+            "iso639_2b": "grn",
+            "iso639_2t": "grn",
+            "iso639_3": "grn",
+            "name": "Guarani",
+            "native_name": "Ava\u00f1e'\u1ebd"
+        },
+        {
+            "bcp47": "qu",
+            "iso639_1": "qu",
+            "iso639_2b": "que",
+            "iso639_2t": "que",
+            "iso639_3": "que",
+            "name": "Quechua",
+            "native_name": "Runa Simi"
+        },
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "bs",
+            "iso639_1": "bs",
+            "iso639_2b": "bos",
+            "iso639_2t": "bos",
+            "iso639_3": "bos",
+            "name": "Bosnian",
+            "native_name": "bosanski jezik"
+        },
+        {
+            "bcp47": "hr",
+            "iso639_1": "hr",
+            "iso639_2b": "hrv",
+            "iso639_2t": "hrv",
+            "iso639_3": "hrv",
+            "name": "Croatian",
+            "native_name": "hrvatski jezik"
+        },
+        {
+            "bcp47": "sr",
+            "iso639_1": "sr",
+            "iso639_2b": "srp",
+            "iso639_2t": "srp",
+            "iso639_3": "srp",
+            "name": "Serbian",
+            "native_name": "\u0441\u0440\u043f\u0441\u043a\u0438 \u0458\u0435\u0437\u0438\u043a"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "tn",
+            "iso639_1": "tn",
+            "iso639_2b": "tsn",
+            "iso639_2t": "tsn",
+            "iso639_3": "tsn",
+            "name": "Tswana",
+            "native_name": "Setswana"
+        }
+    ],
+    [
+        {
+            "bcp47": "no",
+            "iso639_1": "no",
+            "iso639_2b": "nor",
+            "iso639_2t": "nor",
+            "iso639_3": "nor",
+            "name": "Norwegian",
+            "native_name": "Norsk"
+        }
+    ],
+    [
+        {
+            "bcp47": "pt",
+            "iso639_1": "pt",
+            "iso639_2b": "por",
+            "iso639_2t": "por",
+            "iso639_3": "por",
+            "name": "Portuguese",
+            "native_name": "portugu\u00eas"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "ms",
+            "iso639_1": "ms",
+            "iso639_2b": "may",
+            "iso639_2t": "msa",
+            "iso639_3": "msa",
+            "name": "Malay",
+            "native_name": "Bahasa Melayu"
+        }
+    ],
+    [
+        {
+            "bcp47": "bg",
+            "iso639_1": "bg",
+            "iso639_2b": "bul",
+            "iso639_2t": "bul",
+            "iso639_3": "bul",
+            "name": "Bulgarian",
+            "native_name": "\u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 \u0435\u0437\u0438\u043a"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        },
+        {
+            "bcp47": "rn",
+            "iso639_1": "rn",
+            "iso639_2b": "run",
+            "iso639_2t": "run",
+            "iso639_3": "run",
+            "name": "Rundi",
+            "native_name": "Ikirundi"
+        }
+    ],
+    [
+        {
+            "bcp47": "pt",
+            "iso639_1": "pt",
+            "iso639_2b": "por",
+            "iso639_2t": "por",
+            "iso639_3": "por",
+            "name": "Portuguese",
+            "native_name": "portugu\u00eas"
+        }
+    ],
+    [
+        {
+            "bcp47": "km",
+            "iso639_1": "km",
+            "iso639_2b": "khm",
+            "iso639_2t": "khm",
+            "iso639_3": "khm",
+            "name": "Khmer",
+            "native_name": "\u1781\u17d2\u1798\u17c2\u179a"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "nl",
+            "iso639_1": "nl",
+            "iso639_2b": "dut",
+            "iso639_2t": "nld",
+            "iso639_3": "nld",
+            "name": "Dutch",
+            "native_name": "Nederlands"
+        },
+        {
+            "bcp47": "pap",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "pap",
+            "name": "Papiamento",
+            "native_name": "Papiamentu"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        },
+        {
+            "bcp47": "sg",
+            "iso639_1": "sg",
+            "iso639_2b": "sag",
+            "iso639_2t": "sag",
+            "iso639_3": "sag",
+            "name": "Sango",
+            "native_name": "y\u00e2ng\u00e2 t\u00ee s\u00e4ng\u00f6"
+        }
+    ],
+    [
+        {
+            "bcp47": "ar",
+            "iso639_1": "ar",
+            "iso639_2b": "ara",
+            "iso639_2t": "ara",
+            "iso639_3": "ara",
+            "name": "Arabic",
+            "native_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "zh",
+            "iso639_1": "zh",
+            "iso639_2b": "chi",
+            "iso639_2t": "zho",
+            "iso639_3": "zho",
+            "name": "Chinese",
+            "native_name": "\u4e2d\u6587"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "ar",
+            "iso639_1": "ar",
+            "iso639_2b": "ara",
+            "iso639_2t": "ara",
+            "iso639_3": "ara",
+            "name": "Arabic",
+            "native_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        },
+        {
+            "bcp47": "zdj",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "zdj",
+            "name": "Ngazidja Comorian",
+            "native_name": "shiNgazidja"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        },
+        {
+            "bcp47": "kg",
+            "iso639_1": "kg",
+            "iso639_2b": "kon",
+            "iso639_2t": "kon",
+            "iso639_3": "kon",
+            "name": "Kongo",
+            "native_name": "Kikongo"
+        },
+        {
+            "bcp47": "ln",
+            "iso639_1": "ln",
+            "iso639_2b": "lin",
+            "iso639_2t": "lin",
+            "iso639_3": "lin",
+            "name": "Lingala",
+            "native_name": "Ling\u00e1la"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "rar",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "rar",
+            "name": "Cook Islands Maori",
+            "native_name": "M\u0101ori K\u016bki \u02bb\u0100irani"
+        }
+    ],
+    [
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "hr",
+            "iso639_1": "hr",
+            "iso639_2b": "hrv",
+            "iso639_2t": "hrv",
+            "iso639_3": "hrv",
+            "name": "Croatian",
+            "native_name": "hrvatski jezik"
+        }
+    ],
+    [
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "nl",
+            "iso639_1": "nl",
+            "iso639_2b": "dut",
+            "iso639_2t": "nld",
+            "iso639_3": "nld",
+            "name": "Dutch",
+            "native_name": "Nederlands"
+        },
+        {
+            "bcp47": "pap",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "pap",
+            "name": "Papiamento",
+            "native_name": "Papiamentu"
+        }
+    ],
+    [
+        {
+            "bcp47": "el",
+            "iso639_1": "el",
+            "iso639_2b": "gre",
+            "iso639_2t": "ell",
+            "iso639_3": "ell",
+            "name": "Greek",
+            "native_name": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
+        },
+        {
+            "bcp47": "tr",
+            "iso639_1": "tr",
+            "iso639_2b": "tur",
+            "iso639_2t": "tur",
+            "iso639_3": "tur",
+            "name": "Turkish",
+            "native_name": "T\u00fcrk\u00e7e"
+        }
+    ],
+    [
+        {
+            "bcp47": "cs",
+            "iso639_1": "cs",
+            "iso639_2b": "cze",
+            "iso639_2t": "ces",
+            "iso639_3": "ces",
+            "name": "Czech",
+            "native_name": "\u010de\u0161tina"
+        },
+        {
+            "bcp47": "sk",
+            "iso639_1": "sk",
+            "iso639_2b": "slo",
+            "iso639_2t": "slk",
+            "iso639_3": "slk",
+            "name": "Slovak",
+            "native_name": "sloven\u010dina"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        },
+        {
+            "bcp47": "kg",
+            "iso639_1": "kg",
+            "iso639_2b": "kon",
+            "iso639_2t": "kon",
+            "iso639_3": "kon",
+            "name": "Kongo",
+            "native_name": "Kikongo"
+        },
+        {
+            "bcp47": "ln",
+            "iso639_1": "ln",
+            "iso639_2b": "lin",
+            "iso639_2t": "lin",
+            "iso639_3": "lin",
+            "name": "Lingala",
+            "native_name": "Ling\u00e1la"
+        },
+        {
+            "bcp47": "lua",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "lua",
+            "name": "Luba-Lulua",
+            "native_name": "Tshiluba"
+        },
+        {
+            "bcp47": "sw",
+            "iso639_1": "sw",
+            "iso639_2b": "swa",
+            "iso639_2t": "swa",
+            "iso639_3": "swa",
+            "name": "Swahili",
+            "native_name": "Kiswahili"
+        }
+    ],
+    [
+        {
+            "bcp47": "da",
+            "iso639_1": "da",
+            "iso639_2b": "dan",
+            "iso639_2t": "dan",
+            "iso639_3": "dan",
+            "name": "Danish",
+            "native_name": "dansk"
+        }
+    ],
+    [
+        {
+            "bcp47": "ar",
+            "iso639_1": "ar",
+            "iso639_2b": "ara",
+            "iso639_2t": "ara",
+            "iso639_3": "ara",
+            "name": "Arabic",
+            "native_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "ar",
+            "iso639_1": "ar",
+            "iso639_2b": "ara",
+            "iso639_2t": "ara",
+            "iso639_3": "ara",
+            "name": "Arabic",
+            "native_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        }
+    ],
+    [
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        },
+        {
+            "bcp47": "pt",
+            "iso639_1": "pt",
+            "iso639_2b": "por",
+            "iso639_2t": "por",
+            "iso639_3": "por",
+            "name": "Portuguese",
+            "native_name": "portugu\u00eas"
+        },
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "ar",
+            "iso639_1": "ar",
+            "iso639_2b": "ara",
+            "iso639_2t": "ara",
+            "iso639_3": "ara",
+            "name": "Arabic",
+            "native_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "ti",
+            "iso639_1": "ti",
+            "iso639_2b": "tir",
+            "iso639_2t": "tir",
+            "iso639_3": "tir",
+            "name": "Tigrinya",
+            "native_name": "\u1275\u130d\u122d\u129b"
+        }
+    ],
+    [
+        {
+            "bcp47": "et",
+            "iso639_1": "et",
+            "iso639_2b": "est",
+            "iso639_2t": "est",
+            "iso639_3": "est",
+            "name": "Estonian",
+            "native_name": "eesti"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "ss",
+            "iso639_1": "ss",
+            "iso639_2b": "ssw",
+            "iso639_2t": "ssw",
+            "iso639_3": "ssw",
+            "name": "Swazi",
+            "native_name": "SiSwati"
+        }
+    ],
+    [
+        {
+            "bcp47": "am",
+            "iso639_1": "am",
+            "iso639_2b": "amh",
+            "iso639_2t": "amh",
+            "iso639_3": "amh",
+            "name": "Amharic",
+            "native_name": "\u12a0\u121b\u122d\u129b"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "da",
+            "iso639_1": "da",
+            "iso639_2b": "dan",
+            "iso639_2t": "dan",
+            "iso639_3": "dan",
+            "name": "Danish",
+            "native_name": "dansk"
+        },
+        {
+            "bcp47": "fo",
+            "iso639_1": "fo",
+            "iso639_2b": "fao",
+            "iso639_2t": "fao",
+            "iso639_3": "fao",
+            "name": "Faroese",
+            "native_name": "f\u00f8royskt"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "fj",
+            "iso639_1": "fj",
+            "iso639_2b": "fij",
+            "iso639_2t": "fij",
+            "iso639_3": "fij",
+            "name": "Fijian",
+            "native_name": "vosa Vakaviti"
+        },
+        {
+            "bcp47": "hif",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "hif",
+            "name": "Fiji Hindi",
+            "native_name": "\u092b\u093c\u093f\u091c\u0940 \u0939\u093f\u0902\u0926\u0940"
+        }
+    ],
+    [
+        {
+            "bcp47": "fi",
+            "iso639_1": "fi",
+            "iso639_2b": "fin",
+            "iso639_2t": "fin",
+            "iso639_3": "fin",
+            "name": "Finnish",
+            "native_name": "suomi"
+        },
+        {
+            "bcp47": "sv",
+            "iso639_1": "sv",
+            "iso639_2b": "swe",
+            "iso639_2t": "swe",
+            "iso639_3": "swe",
+            "name": "Swedish",
+            "native_name": "svenska"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "ka",
+            "iso639_1": "ka",
+            "iso639_2b": "geo",
+            "iso639_2t": "kat",
+            "iso639_3": "kat",
+            "name": "Georgian",
+            "native_name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
+        }
+    ],
+    [
+        {
+            "bcp47": "de",
+            "iso639_1": "de",
+            "iso639_2b": "ger",
+            "iso639_2t": "deu",
+            "iso639_3": "deu",
+            "name": "German",
+            "native_name": "Deutsch"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "el",
+            "iso639_1": "el",
+            "iso639_2b": "gre",
+            "iso639_2t": "ell",
+            "iso639_3": "ell",
+            "name": "Greek",
+            "native_name": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
+        }
+    ],
+    [
+        {
+            "bcp47": "kl",
+            "iso639_1": "kl",
+            "iso639_2b": "kal",
+            "iso639_2t": "kal",
+            "iso639_3": "kal",
+            "name": "Greenlandic",
+            "native_name": "kalaallisut"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "ch",
+            "iso639_1": "ch",
+            "iso639_2b": "cha",
+            "iso639_2t": "cha",
+            "iso639_3": "cha",
+            "name": "Chamorro",
+            "native_name": "Chamoru"
+        },
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        },
+        {
+            "bcp47": "nrf",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "nrf",
+            "name": "Norman",
+            "native_name": "Guern\u00e9siais"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        }
+    ],
+    [
+        {
+            "bcp47": "pt",
+            "iso639_1": "pt",
+            "iso639_2b": "por",
+            "iso639_2t": "por",
+            "iso639_3": "por",
+            "name": "Portuguese",
+            "native_name": "portugu\u00eas"
+        },
+        {
+            "bcp47": "pov",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "pov",
+            "name": "Upper Guinea Crioulo",
+            "native_name": "Kriol"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "fran\u00e7ais"
+        },
+        {
+            "bcp47": "ht",
+            "iso639_1": "ht",
+            "iso639_2b": "hat",
+            "iso639_2t": "hat",
+            "iso639_3": "hat",
+            "name": "Haitian Creole",
+            "native_name": "Krey\u00f2l ayisyen"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        }
+    ],
+    [
+        {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "espa\u00f1ol"
+        }
+    ],
+    [
+        {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+        },
+        {
+            "bcp47": "zh",
+            "iso639_1": "zh",
+            "iso639_2b": "chi",
+            "iso639_2t": "zho",
+            "iso639_3": "zho",
+            "name": "Chinese",
+            "native_name": "\u4e2d\u6587"
+        }
+    ]
+]
