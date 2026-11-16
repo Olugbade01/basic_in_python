@@ -85,18 +85,105 @@ import time
 # with open('all_books.json', 'w',ascii=False, encoding='utf-8') as file:
 #     json.dump(all_books, file, indent=4)
 
-url = 'https://quotes.toscrape.com'
+# # 3.0
 
-def quotes_authors(url):
-    response = requests.get(url, timeout=15)
+# url = 'https://quotes.toscrape.com'
 
-    soup = BeautifulSoup(response.content, 'html.parser')
-    contents = soup.body.prettify()
-    return contents
+# def quotes_authors(url):
+#     response = requests.get(url, timeout=15)
+#     response.raise_for_status()
 
-with open('check.html','w', encoding='utf-8') as file:
-    file.write(quotes_authors(url))
+#     soup = BeautifulSoup(response.content, 'html.parser')
+
+#     all_quote_div = soup.find_all('div', {'class': 'quote'})
+#     report = []
+#     for quote in all_quote_div:
+#         each_quote = quote.find('span', {'class': 'text'})
+#         the_quote = each_quote.text
+#         autor_link = quote.find('small', {'class': 'author'})
+#         author = autor_link.text
+#         tages_link_add = quote.find('div', {'class': 'tags'})
+#         all_tags_links = tages_link_add.find_all('a')
+#         all_tags = []
+#         for each_link in all_tags_links:
+#             all_tags.append(each_link.text)
+
+#         dict_result = {
+#             "Quote": the_quote,
+#             "Author": author,
+#             "Tags": all_tags
+#         }
+
+#         report.append(dict_result)
+#     next_link = ''
+#     next_button =  soup.find('li', {'class': 'next'})
+    
+#     if next_button:
+#         next_link = urljoin(url, next_button.a['href'])
+#     else:
+#         next_link = None
+
+#     return report, next_link
+    
+
+# counter = 0
+# boundry = 15
+# all_data = []
+# while url is not None and counter < boundry:
+#     try:
+#         contents, next_link = quotes_authors(url)
+#     except requests.exceptions.RequestException as error:
+#         print(f"At {url}\n {error}")
+#         break
+#     counter += 1
+#     all_data.extend(contents)
+#     url = next_link
+#     print(f'At {counter} was successful \nThe url is {url}')
+
+
+    
+
+
+
+# with open('all_data.json','w', encoding='utf-8') as file:
+#     json.dump(all_data, file, ensure_ascii=False, indent=4)
+
+# print(quotes_authors(url))
+
+# 4.0
+
+url = 'https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States'
+headers = {
+    "User-Agent": "LearningScraper/1.0 (https://github.com/Olugbade01/basic_in_python; abubakrakeeb07031@gmail.com)",
+    "Accept-Encoding": "gzip",
+}
+response = requests.get(url, headers=headers)
+
+soup = BeautifulSoup(response.content, 'html.parser')
+
+
+# with open('wiki.html', 'r', encoding='utf-8') as file:
+#     file_content = file.read()
+
+
+table = soup.find('table', {'class': 'wikitable'})
+
+for sup in table.select('sup'):
+    sup.decompose()
+# print("[" in table.get_text() )
+
+
+
+str_table = table.prettify()
+
+# print(table)
+
+with open('real_wikitable.html', 'w', encoding='utf-8') as file:
+    file.write(str_table)
+
+sub_tags = table.find_all()
+
+
 
 
 print('Work here!')
-
